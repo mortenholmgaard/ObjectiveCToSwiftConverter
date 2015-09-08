@@ -1,0 +1,10 @@
+C:\Programmering\C#\ObjectiveCToSwiftConverter\ObjectiveCToSwiftConverter\bin\Release\ObjectiveCToSwiftConverter.exe.config
+C:\Programmering\C#\ObjectiveCToSwiftConverter\ObjectiveCToSwiftConverter\bin\Release\ObjectiveCToSwiftConverter.exe
+C:\Programmering\C#\ObjectiveCToSwiftConverter\ObjectiveCToSwiftConverter\bin\Release\ObjectiveCToSwiftConverter.pdb
+C:\Programmering\C#\ObjectiveCToSwiftConverter\ObjectiveCToSwiftConverter\bin\Release\CommandLine.dll
+C:\Programmering\C#\ObjectiveCToSwiftConverter\ObjectiveCToSwiftConverter\bin\Release\Newtonsoft.Json.dll
+C:\Programmering\C#\ObjectiveCToSwiftConverter\ObjectiveCToSwiftConverter\bin\Release\CommandLine.xml
+C:\Programmering\C#\ObjectiveCToSwiftConverter\ObjectiveCToSwiftConverter\bin\Release\Newtonsoft.Json.xml
+C:\Programmering\C#\ObjectiveCToSwiftConverter\ObjectiveCToSwiftConverter\obj\Release\ObjectiveCToSwiftConverter.csprojResolveAssemblyReference.cache
+C:\Programmering\C#\ObjectiveCToSwiftConverter\ObjectiveCToSwiftConverter\obj\Release\ObjectiveCToSwiftConverter.exe
+C:\Programmering\C#\ObjectiveCToSwiftConverter\ObjectiveCToSwiftConverter\obj\Release\ObjectiveCToSwiftConverter.pdb
