@@ -1,0 +1,10 @@
+C:\Programmering\C#\ObjectiveCToSwiftConverter\ObjectiveCToSwiftConverter\bin\Debug\ObjectiveCToSwiftConverter.exe.config
+C:\Programmering\C#\ObjectiveCToSwiftConverter\ObjectiveCToSwiftConverter\bin\Debug\ObjectiveCToSwiftConverter.exe
+C:\Programmering\C#\ObjectiveCToSwiftConverter\ObjectiveCToSwiftConverter\bin\Debug\ObjectiveCToSwiftConverter.pdb
+C:\Programmering\C#\ObjectiveCToSwiftConverter\ObjectiveCToSwiftConverter\bin\Debug\CommandLine.dll
+C:\Programmering\C#\ObjectiveCToSwiftConverter\ObjectiveCToSwiftConverter\bin\Debug\CommandLine.xml
+C:\Programmering\C#\ObjectiveCToSwiftConverter\ObjectiveCToSwiftConverter\obj\Debug\ObjectiveCToSwiftConverter.exe
+C:\Programmering\C#\ObjectiveCToSwiftConverter\ObjectiveCToSwiftConverter\obj\Debug\ObjectiveCToSwiftConverter.pdb
+C:\Programmering\C#\ObjectiveCToSwiftConverter\ObjectiveCToSwiftConverter\bin\Debug\Newtonsoft.Json.dll
+C:\Programmering\C#\ObjectiveCToSwiftConverter\ObjectiveCToSwiftConverter\bin\Debug\Newtonsoft.Json.xml
+C:\Programmering\C#\ObjectiveCToSwiftConverter\ObjectiveCToSwiftConverter\obj\Debug\ObjectiveCToSwiftConverter.csprojResolveAssemblyReference.cache
