@@ -35,7 +35,7 @@ namespace ObjectiveCToSwiftConverter.Converters
 				client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
 				string methodDeclarationSwift = null;
-				var task = client.PostAsJsonAsync<object>("http://objectivec2swift.net/api/Converter/MethodDeclaration", new
+				var task = client.PostAsJsonAsync<object>("http://objectivec2swift.net/api/Converter/ConvertCode", new
 				{
 					value = methodDeclaration,
 
@@ -51,6 +51,6 @@ namespace ObjectiveCToSwiftConverter.Converters
 
 				return methodDeclarationSwift;
 			}
-		} 
+		}
 	}
 }
