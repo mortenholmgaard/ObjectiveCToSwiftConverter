@@ -30,7 +30,8 @@ namespace ObjectiveCToSwiftConverter.Converters
 				content = content.Replace(value, newValue);
 
 				var match2 = new Regex(@"\[(" + newValue.Replace("(", @"\(") + @".*)\]", RegexOptions.Multiline).Match(content);
-				content = content.Replace(match2.Value, match2.Groups[1] + ")");
+                if (match2.Value.Length > 0)
+				    content = content.Replace(match2.Value, match2.Groups[1] + ")");
 			}
 			return content;
 		}

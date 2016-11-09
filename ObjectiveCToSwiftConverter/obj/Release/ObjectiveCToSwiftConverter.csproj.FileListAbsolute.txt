@@ -8,3 +8,5 @@ C:\Programmering\C#\ObjectiveCToSwiftConverter\ObjectiveCToSwiftConverter\bin\Re
 C:\Programmering\C#\ObjectiveCToSwiftConverter\ObjectiveCToSwiftConverter\obj\Release\ObjectiveCToSwiftConverter.csprojResolveAssemblyReference.cache
 C:\Programmering\C#\ObjectiveCToSwiftConverter\ObjectiveCToSwiftConverter\obj\Release\ObjectiveCToSwiftConverter.exe
 C:\Programmering\C#\ObjectiveCToSwiftConverter\ObjectiveCToSwiftConverter\obj\Release\ObjectiveCToSwiftConverter.pdb
+C:\Programmering\C#\ObjectiveCToSwiftConverter\ObjectiveCToSwiftConverter\bin\Release\System.Net.Http.Formatting.dll
+C:\Programmering\C#\ObjectiveCToSwiftConverter\ObjectiveCToSwiftConverter\bin\Release\System.Net.Http.Formatting.xml

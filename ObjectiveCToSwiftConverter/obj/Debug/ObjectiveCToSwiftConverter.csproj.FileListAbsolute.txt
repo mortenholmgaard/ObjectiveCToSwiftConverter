@@ -8,3 +8,5 @@ C:\Programmering\C#\ObjectiveCToSwiftConverter\ObjectiveCToSwiftConverter\obj\De
 C:\Programmering\C#\ObjectiveCToSwiftConverter\ObjectiveCToSwiftConverter\bin\Debug\Newtonsoft.Json.dll
 C:\Programmering\C#\ObjectiveCToSwiftConverter\ObjectiveCToSwiftConverter\bin\Debug\Newtonsoft.Json.xml
 C:\Programmering\C#\ObjectiveCToSwiftConverter\ObjectiveCToSwiftConverter\obj\Debug\ObjectiveCToSwiftConverter.csprojResolveAssemblyReference.cache
+C:\Programmering\C#\ObjectiveCToSwiftConverter\ObjectiveCToSwiftConverter\bin\Debug\System.Net.Http.Formatting.dll
+C:\Programmering\C#\ObjectiveCToSwiftConverter\ObjectiveCToSwiftConverter\bin\Debug\System.Net.Http.Formatting.xml

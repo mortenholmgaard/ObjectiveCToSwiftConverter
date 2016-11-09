@@ -2,6 +2,7 @@
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text.RegularExpressions;
+using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
@@ -35,22 +36,29 @@ namespace ObjectiveCToSwiftConverter.Converters
 				client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
 				string methodDeclarationSwift = null;
-				var task = client.PostAsJsonAsync<object>("http://objectivec2swift.net/api/Converter/ConvertCode", new
+				var task = client.PostAsJsonAsync<object>("https://objectivec2swift.com/api/Converter/ConvertCode", new
 				{
 					value = methodDeclaration,
+                    referrer = "Swiftify"
 
-				}).ContinueWith((taskwithresponse) =>
+                }).ContinueWith((taskwithresponse) =>
 				{
-					var response = taskwithresponse.Result;
-					var jsonString = response.Content.ReadAsStringAsync();
-					jsonString.Wait();
-					var result = JsonConvert.DeserializeObject<JObject>(jsonString.Result);
-					methodDeclarationSwift = result["response"].Value<string>();
+					methodDeclarationSwift = HandleResponse(taskwithresponse);
 				});
 				task.Wait();
 
 				return methodDeclarationSwift;
 			}
 		}
+
+	    private static string HandleResponse(Task<HttpResponseMessage> taskwithresponse)
+	    {
+	        var response = taskwithresponse.Result;
+	        var jsonString = response.Content.ReadAsStringAsync();
+	        jsonString.Wait();
+	        var result = JsonConvert.DeserializeObject<JObject>(jsonString.Result);
+	        var methodDeclarationSwift = result["response"].Value<string>();
+	        return methodDeclarationSwift.Replace("\n", "").Replace("}", "");
+	    }
 	}
 }
